@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play With Triangles</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+</head>
+<body>
+    <div class="navbar_container">
+        <div class="title">Fun With Triangles</div>
+        <div class="options">
+            <div class="item active"><a href="/">is Triangle?</a> </div>
+            <div class="item"><a href="/quiz.html">Quiz</a></div>
+            <div class="item"><a href="/hypotenuse.html">Hypotenuse</a></div>
+            <div class="item"><a href="/areaOfTriangle.html">Area of Triangle</a></div>
+        </div>
+    </div>
+    <div class="container">
+        <h2>Angles of triangles</h2>
+         <div class="input_section">
+             <label for="angle-1">Angle-1</label>
+             <input type="number"  min="0" id="angle-1">
+             <label for="angle-2">Angle-2</label>
+             <input type="number" min="0" id="angle-2">
+             <label for="angle-3">Angle-3</label>
+             <input type="number" min="0" id="angle-3">
+             <button id='submit_button' >Is Triangle?</button>
+         </div>
+         <div class="result_section" id='result_section'> </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>

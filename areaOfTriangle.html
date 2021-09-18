@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play With Triangles</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" />
+</head>
+<body>
+    <div class="navbar_container">
+        <div class="title">Fun With Triangles</div>
+        <div class="options">
+            <div class="item"><a href="/">is Triangle?</a> </div>
+            <div class="item"><a href="/quiz.html">Quiz</a></div>
+            <div class="item"><a href="/hypotenuse.html">Hypotenuse</a></div>
+            <div class="item active"><a href="/areaOfTriangle.html">Area of Triangle</a></div>
+        </div>
+    </div>
+    <div class="container">
+        <h2>Calculate Area of a triangle</h2>
+         <div class="input_section">
+             <label for="first_side">Enter first side of a triangle</label>
+             <input type="number"  id="first_side">
+             <label for="second_side">Enter second side of a triangle</label>
+             <input type="number" id="second_side">
+             <label for="third_side">Enter third  side of a triangle</label>
+             <input type="number" id="third_side">
+             <button id='submit_button' >Calculate Area</button>
+         </div>
+         <div class="result_section" id='result_section'> </div>
+     </div>
+    <script src="./areaOfTriangle.js"></script>
+</body>
+</html>

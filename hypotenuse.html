@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play With Triangles</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" />
+</head>
+<body>
+    <div class="navbar_container">
+        <div class="title">Fun With Triangles</div>
+        <div class="options">
+            <div class="item"><a href="/">is Triangle?</a> </div>
+            <div class="item"><a href="/quiz.html">Quiz</a></div>
+            <div class="item active"><a href="/hypotenuse.html">Hypotenuse</a></div>
+            <div class="item"><a href="/areaOfTriangle.html">Area of Triangle</a></div>
+        </div>
+    </div>
+    <div class="container">
+        <h2>Calculate Hypotenuse of a triangle</h2>
+         <div class="input_section">
+             <label for="base_value">Enter base value (a) =</label>
+             <input type="number" min="0" id="base_value">
+             <label for="height_value">Enter height value (b) =</label>
+             <input type="number" min="0" id="height_value">
+             <button id='submit_button' >Calculate Hypotenuse</button>
+         </div>
+         <h3>Hypotenuse formula</h3>
+         <h6>√(base² + height²)</h6>
+         <div class="result_section" id='result_section' style="margin-top: 0.5rem;"> </div>
+     </div>
+    <script src="./hypotenuse.js"></script>
+</body>
+</html>
