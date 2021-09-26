@@ -15,7 +15,7 @@ function calculateHypotenuse() {
   if(!base_value.value || !height_value.value){
     return  result_section.innerText = "Enter valid data" 
   }else if(base_value.value <= 0 ||height_value.value <=0){
-    return  result_section.innerText = "Enter valid data" 
+    return  result_section.innerText = "Please Enter Positive Value" 
   }else {
     const sumOfSquares = calculateSumOfSquare(
       Number(base_value.value),
